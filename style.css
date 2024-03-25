@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%
+}
+main{
+    font-family: 'Lato', sans-serif !important;
+
+}
+.padre{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.contenedor-img-nike{
+    margin-right: 220px;
+}
+.img-nike{
+    width: 78.47px;
+    height: 78.47px;
+    
+}
+.botones{
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+    margin-left: 140px;
+    text-align: center;
+    
+    
+}
+#linea-cajita{
+    background-color: black;
+    width: 169px;
+    height: 3px;
+    margin: 5px 10px 0 10px;
+    opacity: 1;
+}
+#linea-cajita2{
+    background-color: black;
+    width: 69px;
+    height: 3px;
+    margin: 5px 10px 0 10px;
+    opacity: 1;
+}
+#linea-cajita3{
+    background-color: black;
+    width: 53px;
+    height: 3px;
+    margin: 5px 10px 0 10px;
+    opacity: 1;
+}
+#linea-cajita4{
+    background-color: black;
+    width: 58px;
+    height: 3px;
+    margin: 5px 10px 0 10px;
+    opacity: 1;
+}
+#linea-cajita5{
+    background-color: black;
+    width: 63px;
+    height: 3px;
+    margin: 5px 10px 0 10px;
+    opacity: 1;
+}
+.busqueda{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    padding: 0 10px 0 10px;
+    background-color: white;
+    border: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.lupa{
+    height: 30px;
+    width: 30px;
+}
+.search{
+    width:max-content;
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    background: #f6f6f6;
+    padding: 1px;
+}
+.search-input{
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #222121;
+   margin-left: 5px;
+   margin-right: 8px;
+   outline: none;
+   border: none;
+   background: transparent;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+/* ************************** */
+.padre-documentos{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+.documentos{
+    width: 100%;
+}
+.imagen{
+    margin-top: 50px;
+    width: 50%;
+    height: 70%;
+    border-radius: 20px;
+    
+}
+div > p{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
